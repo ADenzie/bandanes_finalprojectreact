@@ -70,7 +70,7 @@ function App() {
           <div className="bg-keshiLight p-8 rounded-xl shadow-lg">
             <div className="grid md:grid-cols-3 gap-10">
               <div>
-                <img src="/keshibio.PNG" alt="Keshi portrait" className="rounded-lg mb-6 w-full" />
+                <img src="/keshibio.png" alt="Keshi portrait" className="rounded-lg mb-6 w-full" />
                 <div className="bg-white p-6 rounded-lg shadow">
                   <h3 className="font-bold text-keshiRed mb-4">Quick Facts</h3>
                   <ul className="space-y-3 text-gray-700">
@@ -98,7 +98,7 @@ function App() {
             <h3 className="text-2xl font-semibold mb-6">Album</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="album-card bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:shadow-red-100 transition-all hover:scale-105">
-                <img src="/gabriel.PNG" alt="GABRIEL" className="w-full h-64 object-cover" />
+                <img src="/gabriel.png" alt="GABRIEL" className="w-full h-64 object-cover" />
                 <div className="p-6">
                   <h4 className="font-bold text-xl">GABRIEL</h4>
                   <p className="text-gray-600">2022 • Album</p>
@@ -117,7 +117,7 @@ function App() {
                 { name: "always", year: "2021", tracks: '"always", "beside you"' }
               ].map(ep => (
                 <div key={ep.name} className="album-card bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:shadow-red-100 transition-all hover:scale-105">
-                  <img src={`/${ep.name}.PNG`} alt={ep.name} className="w-full h-64 object-cover" />
+                  <img src={`/${ep.name}.png`} alt={ep.name} className="w-full h-64 object-cover" />
                   <div className="p-6">
                     <h4 className="font-bold text-xl">{ep.name}</h4>
                     <p className="text-gray-600">{ep.year} • EP</p>
